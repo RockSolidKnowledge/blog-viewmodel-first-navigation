@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:screens="clr-namespace:ViewmodelFirstNavigation.Screens;assembly=ViewmodelFirstNavigation"
+             x:Class="ViewmodelFirstNavigation.Screens.ChildView"
+             mc:Ignorable="d"
+             d:DataContext="{d:DesignInstance screens:ChildViewModel}"
+             Title="{Binding NavigationPath}">
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
+            <StackLayout Orientation="Horizontal" VerticalOptions="Center">
+                <Label Text="Viewing:"
+                       HorizontalOptions="Center"
+                       VerticalOptions="Center"></Label>
+                <Label Text="{Binding NavigationPath}" 
+                       HorizontalOptions="Center"
+                       VerticalOptions="Start" />
+            </StackLayout>
+
+            <Button Text="Push child"
+                    Command="{Binding NavigateToChildPageCommand}" />
+            <Button Text="Navigate back"
+                    Command="{Binding NavigateBack}" />
+            <Button Text="Navigate home"
+                    Command="{Binding NavigateToRoot}" />
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
