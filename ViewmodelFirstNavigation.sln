@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ViewmodelFirstNavigation.Android", "ViewmodelFirstNavigation\ViewmodelFirstNavigation.Android\ViewmodelFirstNavigation.Android.csproj", "{2BE095CD-9A38-451E-8D36-3FD6E9B32B61}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ViewmodelFirstNavigation.Android", "ViewmodelFirstNavigation.Android\ViewmodelFirstNavigation.Android.csproj", "{2BE095CD-9A38-451E-8D36-3FD6E9B32B61}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ViewmodelFirstNavigation.iOS", "ViewmodelFirstNavigation\ViewmodelFirstNavigation.iOS\ViewmodelFirstNavigation.iOS.csproj", "{D75586DB-C234-4A3A-9AC3-566DA81F7416}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ViewmodelFirstNavigation.iOS", "ViewmodelFirstNavigation.iOS\ViewmodelFirstNavigation.iOS.csproj", "{D75586DB-C234-4A3A-9AC3-566DA81F7416}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ViewmodelFirstNavigation", "ViewmodelFirstNavigation\ViewmodelFirstNavigation\ViewmodelFirstNavigation.csproj", "{493D51C8-7513-4AA2-872C-3080718E305A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ViewmodelFirstNavigation", "ViewmodelFirstNavigation\ViewmodelFirstNavigation.csproj", "{493D51C8-7513-4AA2-872C-3080718E305A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
